@@ -1,0 +1,15 @@
+#!/usr/bin/env python
+import sys
+from Wikipedia import Wikipedia
+
+def output(article):
+    print article["title"]
+    print article["summary"]
+
+try:
+    article = Wikipedia(" ".join(sys.argv[1:]))
+except Exception as e:
+    print e.args[0]
+    sys.exit()
+
+output(article)

@@ -1,0 +1,10 @@
+Wikiread version working (read: 1.0)
+
+Known issues:
+ - Sometimes attempts to print photos or pictures are made instead of paragraphs. This is due to the first paragraph sometimes being in the sidebar instead of the main page.
+ - Exceptions are thrown for disambiguation pages. At another time, it can be properly handled.
+
+Python 3.4 was used to make this.
+
+If other errors or bugs do occur you can leave a comment on the github page.
+Contributions are always appreciated.
